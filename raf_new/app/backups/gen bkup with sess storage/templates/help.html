@@ -1,0 +1,102 @@
+<div class="row" ng-controller="helpCtrl">
+	<div class="white-box col-md-7 col-sm-12">
+		<h4>Contact Us</h4>
+		<small>Please use the form below to send us your complaints or enquiries if not in the FAQs section</small>
+		<span class="container"><hr></span>
+			<form ng-submit="contact(user)">
+                  <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" ng-model="user.fullname" placeholder="Your Fullname" required>
+                      <div class="input-group-addon"><i class="ti-user"></i></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <div class="input-group">
+                      <input type="email" class="form-control" ng-model="user.email" placeholder="Your email" required>
+                      <div class="input-group-addon"><i class="ti-email"></i></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" ng-model="user.phone" placeholder="Your Phone Number">
+                      <div class="input-group-addon"><i class="ti-mobile"></i></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="col-md-12">Question or Comment</label>
+                    <div class="col-md-12">
+                      <textarea rows="6" class="form-control form-control-line" ng-model="user.message" placeholder="Your Message..." required></textarea>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="text-right">
+                    <button type="submit" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
+                    <button type="reset" class="btn btn-inverse waves-effect waves-light">Cancel</button>
+                  </div>
+                </form>
+	<hr>
+	</div>
+	<div class="white-box col-md-4 col-md-offset-1">
+	<div class="row">
+	<h4>Contact Details</h4>
+	<hr>
+		<div class="text-center col-md-12">
+                  <address>
+                  <h3> &nbsp;<b class="text-primary">RAF Ventures</b></h3>
+                  <p class="text-muted m-l-5">No. 2 Tamandu Road, <br/>
+                    Off Audu Bako Way, Kano <br/>
+                    Kano, Nigeria <br/>
+                    <span class="icon-phone"></span> +234-(0)-9037154836
+                    <span class="icon-envelope"></span> info@rafonline.com</p>
+                  </address>
+    </div>
+                <br>
+	<h4>FAQs Section</h4>
+	<hr>
+		<div class="col-md-12">
+          <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true" role="tablist">
+            <div class="panel">
+              <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab"> <a class="panel-title" data-toggle="collapse" href=".question1" data-parent="#exampleAccordionDefault" aria-expanded="true" aria-controls="question1"> Sample Question 1 </a> </div>
+              <div class="panel-collapse collapse in question1" id="question1" aria-labelledby="exampleHeadingDefaultOne" role="tabpanel">
+                <div class="panel-body"> De moveat laudatur vestra parum doloribus labitur sentire partes, eripuit praesenti
+                  congressus ostendit alienae, voluptati ornateque accusamus
+                  clamat reperietur convicia albucius, veniat quocirca vivendi
+                  aristotele errorem epicurus. Suppetet. Aeternum animadversionis,
+                  turbent cn partem porrecta c putamus diceret decore. Vero
+                  itaque incursione. </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab"> <a class="panel-title collapsed" data-toggle="collapse" href=".question2" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="question2"> Sample Question 2 </a> </div>
+              <div class="panel-collapse collapse question2" id="question2" aria-labelledby="exampleHeadingDefaultTwo" role="tabpanel">
+                <div class="panel-body"> Praestabiliorem. Pellat excruciant legantur ullum leniter vacare foris voluptate
+                  loco ignavi, credo videretur multoque choro fatemur mortis
+                  animus adoptionem, bello statuat expediunt naturales frequenter
+                  terminari nomine, stabilitas privatio initia paranda contineri
+                  abhorreant, percipi dixerit incurreret deorsum imitarentur
+                  tenetur antiopam latinam haec. </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab"> <a class="panel-title collapsed" data-toggle="collapse" href=".question3" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="question3"> Sample Question 3 </a> </div>
+              <div class="panel-collapse collapse question3" id="question3" aria-labelledby="exampleHeadingDefaultThree" role="tabpanel">
+                <div class="panel-body"> Horum, antiquitate perciperet d conspectum locus obruamus animumque perspici probabis
+                  suscipere. Desiderat magnum, contenta poena desiderant
+                  concederetur menandri damna disputandum corporum equidem
+                  cyrenaicisque. Defuturum ultimum ista ignaviamque iudicant
+                  feci incursione, reprimique fruenda utamur tu faciam complexiones
+                  eo, habeo ortum iucundo artes. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+	</div>
+</div>
+</div>

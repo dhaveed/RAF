@@ -1,0 +1,8 @@
+html { 
+  /*background: url(../img/signbg.jpg) no-repeat center center fixed; */
+  background: ghostwhite;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

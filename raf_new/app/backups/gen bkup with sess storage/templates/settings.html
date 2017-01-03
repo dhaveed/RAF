@@ -1,0 +1,104 @@
+<!--row -->
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <div class="white-box">
+            <h3 class="box-title">My Recent Orders</h3>
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Quantity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="javascript:void(0)">#26589</a></td>
+                    <td>Herman Beck</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 16, 2016</span> </td>
+                    <td>&#8358; 45.00</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)">#58746</a></td>
+                    <td>Mary Adams</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 12, 2016</span> </td>
+                    <td>&#8358; 245.30</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)">#98458</a></td>
+                    <td>Caleb Richards</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> May 18, 2016</span> </td>
+                    <td>&#8358; 38.00</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)">#32658</a></td>
+                    <td>June Lane</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Apr 28, 2016</span> </td>
+                    <td>&#8358; 77.99</td>
+                    <td>15</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          <hr>
+          </div>
+        </div>
+
+
+<!--row -->
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <div class="white-box">
+            <h3 class="box-title">Edit Profile</h3>
+            <form class="form-horizontal form-material">
+                  <div class="form-group">
+                    <label class="col-md-12">Full Name</label>
+                    <div class="col-md-12">
+                      <input type="text" placeholder="Your Full Name" class="form-control form-control-line" value="{{user.fullName}}">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-12">Company Name</label>
+                    <div class="col-md-12">
+                      <input type="text" placeholder="Your Company Name" class="form-control form-control-line" value="{{user.companyName}}">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="example-email" class="col-md-12">Email</label>
+                    <div class="col-md-12">
+                      <input type="email" placeholder="someone@something.com" class="form-control form-control-line" name="example-email" value="{{user.email}}">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-12">Password</label>
+                    <div class="col-md-12">
+                      <input type="password" value="password" class="form-control form-control-line">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-12">Phone Number</label>
+                    <div class="col-md-12">
+                      <input type="text" placeholder="Your Phone Number" class="form-control form-control-line" value="{{user.phone1}}">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-12">Address</label>
+                    <div class="col-md-12">
+                      <textarea rows="5" ng-model="user.companyAddress" class="form-control form-control-line" placeholder="Your Company Address" ng-value="{{user.companyAddress}}"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <button class="btn btn-success">Update Profile</button>
+                    </div>
+                  </div>
+                </form>
+          <hr>
+          </div>
+        </div>

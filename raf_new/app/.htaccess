@@ -1,0 +1,10 @@
+ErrorDocument 404 http://localhost/raf_new/app/templates/error-pages/404.html
+
+RewriteEngine On
+
+RewriteRule ^login?$ login.php#/
+RewriteRule ^signup?$ signup.php#/
+RewriteRule ^main?$ index.php#/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

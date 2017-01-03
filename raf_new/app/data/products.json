@@ -1,0 +1,46 @@
+[{
+	"name": "Sugar",
+	"availableBrands": ["Dangote", "GoldenPenny", "Honeywell"],
+	"price": 1000,
+	"category" : "Sugar"
+}, {
+	"name": "Salt",
+	"availableBrands": ["Dangote", "Mr Chef", "Honeywell"],
+	"price": 400,
+	"category" : "Salt"
+}, {
+	"name": "Cement",
+	"availableBrands": ["Dangote", "Elephant", "La Farge"],
+	"price": 2500,
+	"category" : "Cement"
+}, {
+	"name": "Spaghetti",
+	"availableBrands": ["Dangote", "GoldenPenny", "Honeywell", "Power Pasta"],
+	"price": 3000,
+	"category" : "Pasta"
+}, {
+	"name": "Rice",
+	"availableBrands": ["Mama Gold", "Stallion", "Premium Rice"],
+	"price": 7000,
+	"category" : "Rice"
+}, {
+	"name": "Semovita",
+	"availableBrands": ["Dangote", "GoldenPenny", "Honeywell", "Semolina"],
+	"price": 2000,
+	"category" : "Semovita"
+}, {
+	"name": "Noodles",
+	"availableBrands": ["Indomie", "Dangote", "Honeywell", "GoldenPenny", "Mie-mie Noodles"],
+	"price": 1000,
+	"category" : ""
+}, {
+	"name": "Something Else",
+	"availableBrands": ["Brand A", "Brand B", "Brand C"],
+	"price": 20000,
+	"category" : "Pasta"
+}, {
+	"name": "Test Product",
+	"availableBrands": ["Brand A", "Brand B", "Brand C"],
+	"price": 600,
+	"category" : "Pasta"
+}]

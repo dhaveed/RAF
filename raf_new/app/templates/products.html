@@ -1,0 +1,69 @@
+<section ng-controller="productsCtrl">
+
+                <!--<section class="m-t-40">
+                  <div class="sttabs tabs-style-linemove">
+                    <nav>
+                      <ul>
+                        <li><a href="" data-filter="*" class="sticon ti-home"><span>All Products</span></a></li>
+                        <li><a href="" data-filter=".Cement" class="sticon ti-gift"><span>Cement</span></a></li>
+                        <li><a href="" data-filter=".Sugar" class="sticon ti-trash"><span>Sugar</span></a></li>
+                        <li><a href="" data-filter=".Rice" class="sticon ti-upload"><span>Rice</span></a></li>
+                        <li><a href="" data-filter=".Other" class="sticon ti-settings"><span>Other</span></a></li>
+                      </ul>
+                    </nav>
+                    <div class="content-wrap text-center">
+                      <section id="section-linemove-1"><h2>Tabbing 1</h2></section>
+                      <section id="section-linemove-2"><h2>Tabbing 2</h2></section>
+                      <section id="section-linemove-3"><h2>Tabbing 3</h2></section>
+                      <section id="section-linemove-4"><h2>Tabbing 4</h2></section>
+                      <section id="section-linemove-5"><h2>Tabbing 5</h2></section>
+                    </div><! /content >
+                  </div><! /tabs >
+                </section>-->
+
+                <br>
+ 
+      <div class="row">
+        <div class="col-lg-3 col-md-3 products-div col-sm-6 col-xs-12" ng-repeat="product in productList | filter: search">
+          <div class="white-box {{product.category}}">
+            <div class="product-img">
+                <img src="plugins/plugins/images/chair.jpg"/> 
+                <div class="pro-img-overlay"><a href="javascript:void(0)" class="bg-info"><i class="ti-search"></i></a> <a href="javascript:void(0)" class="bg-danger"><i class="ti-shopping-cart"></i></a></div>
+            </div>
+            <div class="product-text">
+              <span class="pro-price bg-primary">&#8358; {{product.price}}</span>
+              <h3 class="box-title m-b-0">{{product.name}}</h3>
+              <small class="text-muted db">product description</small>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+      <!--row -->
+
+      <script type="text/javascript">
+        $(window).load(function () {
+var $container = $('#products-div');
+$container.isotope({
+filter: '*',
+animationOptions: {
+duration: 750,
+easing: 'linear',
+queue: false
+}
+});
+});
+      </script>
+
+<script src="js/cbpFWTabs.js"></script>
+<script type="text/javascript">
+      (function() {
+
+                [].slice.call( document.querySelectorAll( '.sttabs' ) ).forEach( function( el ) {
+                    new CBPFWTabs( el );
+                });
+
+            })();
+</script>

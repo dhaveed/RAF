@@ -1,0 +1,24 @@
+/* Login- register pages */
+.login-register {
+  background: url(../plugins/plugins/images/big/img1.jpg) no-repeat center center / cover !important;
+  height: 100%;
+  position: fixed;
+}
+.login-box {
+  background: #ffffff;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.login-box .footer {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+.login-box .social {
+  display: block;
+  margin-bottom: 30px;
+}
+#recoverform {
+  display: none;
+}
